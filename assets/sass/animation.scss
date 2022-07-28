@@ -1,0 +1,22 @@
+.appear-enter-active,
+.appear-leave-active {
+  transition: all 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.appear-enter-from,
+.appear-leave-to {
+  transform: translateX(100%);
+}
+
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition: all 0.3s ease-in-out;
+  max-height: 100px; 
+  overflow: hidden;
+}
+
+.dropdown-enter-from,
+.dropdown-leave-to {
+    max-height: 0; 
+}
